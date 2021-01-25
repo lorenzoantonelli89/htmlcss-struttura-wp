@@ -4,3 +4,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#container{
+  width: 80%;
+  margin: 2% auto;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* regole header */
+header{
+  /* regole debug */
+  height: 60px;
+  background-color: rgb(225, 111, 226);
+}
+
+/* regole jumbotron */
+.jumbotron{
+  margin-top: 2%;
+  /* regole debug */
+  height: 250px;
+  background-color: rgb(221, 208, 111);
+}

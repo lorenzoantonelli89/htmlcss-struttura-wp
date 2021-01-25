@@ -6,7 +6,7 @@
 }
 
 #container{
-  width: 70%;
+  width: 80%;
   margin: 2% auto;
 }
 
@@ -14,64 +14,19 @@
   content: "";
   display: table;
   clear: both;
-  width: 100%;
-}
-
-.jumbotron, main{
-  margin-top: 2%;
 }
 
 /* regole header */
 header{
   /* regole debug */
-  height: 100px;
+  height: 60px;
   background-color: rgb(225, 111, 226);
 }
 
 /* regole jumbotron */
 .jumbotron{
-  /* regole debug */
-  height: 330px;
-  background-color: rgb(221, 208, 111);
-}
-
-/* regole main */
-main{
-  /* regole debug */
-  background-color: rgb(0, 123, 255);
-}
-
-.title.main{
-  /* regole debug */
-  height: 50px;
-  background-color: rgb(161, 200, 227);
-}
-
-/* regole specifiche figli row */
-.aside,.section.central{
   margin-top: 2%;
-  margin-bottom: 2%;
   /* regole debug */
-  height: 400px;
-  background-color: rgb(161, 200, 227);
-
-}
-.aside{
-  width: 20%;
-  float: left;
-}
-
-.section.central{
-  margin-left: 1%;
-  margin-right: 1%;
-  width: 58%;
-  float: left;
-}
-
-/* regole footer */
-footer{
-  margin-top: 1%;
-  /* regole debug */
-  height: 40px;
-  background-color: rgb(124, 8, 254);
+  height: 250px;
+  background-color: rgb(221, 208, 111);
 }
